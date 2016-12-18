@@ -39,10 +39,11 @@ class SignInViewController: UIViewController {
                     
                     //After account is created, sign the user in
                     
-                    if error == nil {
-                        self.performSegue(withIdentifier: "signInSegue", sender: nil)
+                    if error != nil {
+                        print("Hey we have an error:\(error)")
                     } else {
-                        print("Unable to create user")
+                        print("User created successfully")  
+                        self.performSegue(withIdentifier: "signInSegue", sender: nil)
                     }
                 })
                 
