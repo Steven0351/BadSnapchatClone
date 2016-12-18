@@ -78,7 +78,6 @@
         <!--Snaps View Controller-->
         <scene sceneID="SlK-z1-bhA">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="eiH-W9-iyf" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="ZBD-fZ-FHa" customClass="SnapsViewController" customModule="SnapchatClone" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="1Lu-IA-CwT"/>
@@ -97,11 +96,12 @@
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="KqB-vx-ECY">
                             <connections>
-                                <segue destination="xvC-oI-Wte" kind="show" id="SaH-d5-xgw"/>
+                                <segue destination="xvC-oI-Wte" kind="show" id="IeA-Qs-xO6"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eiH-W9-iyf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1628" y="39.130434782608695"/>
         </scene>
@@ -160,7 +160,6 @@
                         <outlet property="descriptionTextField" destination="ft6-1S-uZ3" id="jsy-hi-DoU"/>
                         <outlet property="imageView" destination="HPp-Ow-IQ0" id="5zG-1Z-iSk"/>
                         <outlet property="nextButton" destination="gOy-aO-FkC" id="C1M-Ls-8fx"/>
-                        <outlet property="nextTapped" destination="gOy-aO-FkC" id="cLm-ZQ-UIj"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vaf-e9-rgl" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -170,7 +169,6 @@
         <!--Navigation Controller-->
         <scene sceneID="2hj-Gp-LXx">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="MMq-rJ-SYt" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="G0E-OW-agh" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="S90-N4-4v6">
@@ -182,6 +180,7 @@
                         <segue destination="ZBD-fZ-FHa" kind="relationship" relationship="rootViewController" id="maN-yp-yed"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MMq-rJ-SYt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="911" y="36"/>
         </scene>
