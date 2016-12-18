@@ -28,6 +28,9 @@ class PictureViewController: UIViewController, UIImagePickerControllerDelegate, 
         let image = info[UIImagePickerControllerOriginalImage] as! UIImage
         
         imageView.image = image
+        
+        imageView.backgroundColor = UIColor.clear
+        
         imagePicker.dismiss(animated: true, completion: nil)
     }
     
