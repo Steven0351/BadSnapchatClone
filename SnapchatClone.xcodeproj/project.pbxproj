@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0A7E058B5857FD3C3344052E /* Pods_SnapchatClone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A793CBB7243437C4EB9E0942 /* Pods_SnapchatClone.framework */; };
 		620975DC1E0716D50066F794 /* SelectUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620975DB1E0716D50066F794 /* SelectUserViewController.swift */; };
+		620975DE1E0721EF0066F794 /* user.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620975DD1E0721EF0066F794 /* user.swift */; };
 		62B3968F1E0648300095AC3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B3968E1E0648300095AC3D /* AppDelegate.swift */; };
 		62B396911E0648300095AC3D /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B396901E0648300095AC3D /* SignInViewController.swift */; };
 		62B396941E0648300095AC3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62B396921E0648300095AC3D /* Main.storyboard */; };
@@ -22,6 +23,7 @@
 /* Begin PBXFileReference section */
 		3B0B8EA23C2A7653C3E60D4F /* Pods-SnapchatClone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapchatClone.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SnapchatClone/Pods-SnapchatClone.debug.xcconfig"; sourceTree = "<group>"; };
 		620975DB1E0716D50066F794 /* SelectUserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectUserViewController.swift; sourceTree = "<group>"; };
+		620975DD1E0721EF0066F794 /* user.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = user.swift; sourceTree = "<group>"; };
 		62B3968B1E0648300095AC3D /* SnapchatClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapchatClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62B3968E1E0648300095AC3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		62B396901E0648300095AC3D /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +51,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		620975DF1E0722100066F794 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				62B396901E0648300095AC3D /* SignInViewController.swift */,
+				62B396A31E066EB30095AC3D /* SnapsViewController.swift */,
+				62B396A51E067D6E0095AC3D /* PictureViewController.swift */,
+				620975DB1E0716D50066F794 /* SelectUserViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		620975E01E0722460066F794 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				620975DD1E0721EF0066F794 /* user.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		62B396821E0648300095AC3D = {
 			isa = PBXGroup;
 			children = (
@@ -70,13 +91,11 @@
 		62B3968D1E0648300095AC3D /* SnapchatClone */ = {
 			isa = PBXGroup;
 			children = (
-				62B396A21E0668670095AC3D /* SnapchatClone.entitlements */,
+				620975DF1E0722100066F794 /* View Controllers */,
+				620975E01E0722460066F794 /* Models */,
 				62B3968E1E0648300095AC3D /* AppDelegate.swift */,
-				62B396901E0648300095AC3D /* SignInViewController.swift */,
+				62B396A21E0668670095AC3D /* SnapchatClone.entitlements */,
 				62B396921E0648300095AC3D /* Main.storyboard */,
-				620975DB1E0716D50066F794 /* SelectUserViewController.swift */,
-				62B396A51E067D6E0095AC3D /* PictureViewController.swift */,
-				62B396A31E066EB30095AC3D /* SnapsViewController.swift */,
 				62B396951E0648300095AC3D /* Assets.xcassets */,
 				62B396971E0648300095AC3D /* LaunchScreen.storyboard */,
 				62B3969A1E0648300095AC3D /* Info.plist */,
@@ -234,6 +253,7 @@
 			files = (
 				62B396911E0648300095AC3D /* SignInViewController.swift in Sources */,
 				62B396A61E067D6E0095AC3D /* PictureViewController.swift in Sources */,
+				620975DE1E0721EF0066F794 /* user.swift in Sources */,
 				620975DC1E0716D50066F794 /* SelectUserViewController.swift in Sources */,
 				62B3968F1E0648300095AC3D /* AppDelegate.swift in Sources */,
 				62B396A41E066EB30095AC3D /* SnapsViewController.swift in Sources */,
