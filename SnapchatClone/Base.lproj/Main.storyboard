@@ -89,9 +89,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="2l0-0E-pvW">
-                        <barButtonItem key="leftBarButtonItem" title="Logout" id="KB5-fy-faV">
+                        <barButtonItem key="leftBarButtonItem" title="Logout" id="2uM-Ru-fPx">
                             <connections>
-                                <action selector="logoutTapped:" destination="ZBD-fZ-FHa" id="62z-Qg-JiW"/>
+                                <action selector="logoutTapped:" destination="ZBD-fZ-FHa" id="yhf-af-oCf"/>
                             </connections>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="KqB-vx-ECY">
